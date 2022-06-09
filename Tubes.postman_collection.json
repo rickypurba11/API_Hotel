@@ -1,0 +1,849 @@
+{
+	"info": {
+		"_postman_id": "af750e75-ef6d-4723-bc1e-0d4b77af3079",
+		"name": "Tubes",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21015700"
+	},
+	"item": [
+		{
+			"name": "GET ../resPembayaran",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/tubesapp/hotel/resPembayaran_api/bayar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"tubesapp",
+						"hotel",
+						"resPembayaran_api",
+						"bayar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST ../resPembayaran",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "id",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "tgl",
+							"value": "2022-11-27",
+							"type": "text"
+						},
+						{
+							"key": "nominal",
+							"value": "300000",
+							"type": "text"
+						},
+						{
+							"key": "uang_bayar",
+							"value": "300000",
+							"type": "text"
+						},
+						{
+							"key": "kembalian",
+							"value": "0",
+							"type": "text"
+						},
+						{
+							"key": "id_reservasi",
+							"value": "12",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/tubesapp/hotel/resPembayaran_api/bayar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"tubesapp",
+						"hotel",
+						"resPembayaran_api",
+						"bayar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT ../resPembayaran",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "id",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "tgl",
+							"value": "2022-11-30",
+							"type": "text"
+						},
+						{
+							"key": "nominal",
+							"value": "400000",
+							"type": "text"
+						},
+						{
+							"key": "uang_bayar",
+							"value": "500000",
+							"type": "text"
+						},
+						{
+							"key": "kembalian",
+							"value": "100000",
+							"type": "text"
+						},
+						{
+							"key": "id_reservasi",
+							"value": "11",
+							"type": "text"
+						},
+						{
+							"key": "id",
+							"value": "6",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/tubesapp/hotel/resPembayaran_api/bayar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"tubesapp",
+						"hotel",
+						"resPembayaran_api",
+						"bayar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DEL ../resPembayaran",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "id",
+							"value": "6",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/tubesapp/hotel/resPembayaran_api/bayar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"tubesapp",
+						"hotel",
+						"resPembayaran_api",
+						"bayar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET ../reservasi",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/tubesapp/hotel/Reservasi_api/reservasi",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"tubesapp",
+						"hotel",
+						"Reservasi_api",
+						"reservasi"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST ../reservasi",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "id",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "nama",
+							"value": "Timothy Agaliasis Ginting",
+							"type": "text"
+						},
+						{
+							"key": "telp",
+							"value": "082121221111",
+							"type": "text"
+						},
+						{
+							"key": "alamat",
+							"value": "D.Sanggul",
+							"type": "text"
+						},
+						{
+							"key": "tgl_masuk",
+							"value": "2022-11-27",
+							"type": "text"
+						},
+						{
+							"key": "tgl_keluar",
+							"value": "2022-12-10",
+							"type": "text"
+						},
+						{
+							"key": "id_kamar",
+							"value": "12",
+							"type": "text"
+						},
+						{
+							"key": "status",
+							"value": "2",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/tubesapp/hotel/Reservasi_api/reservasi",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"tubesapp",
+						"hotel",
+						"Reservasi_api",
+						"reservasi"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT ../reservasi",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "id",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "nama",
+							"value": "Ricky Martin Purba",
+							"type": "text"
+						},
+						{
+							"key": "telp",
+							"value": "0856723453",
+							"type": "text"
+						},
+						{
+							"key": "alamat",
+							"value": "Medan",
+							"type": "text"
+						},
+						{
+							"key": "tgl_masuk",
+							"value": "2022-12-10",
+							"type": "text"
+						},
+						{
+							"key": "tgl_keluar",
+							"value": "2022-12-14",
+							"type": "text"
+						},
+						{
+							"key": "id_kamar",
+							"value": "12",
+							"type": "text"
+						},
+						{
+							"key": "status",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "id",
+							"value": "10",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/tubesapp/hotel/Reservasi_api/reservasi",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"tubesapp",
+						"hotel",
+						"Reservasi_api",
+						"reservasi"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DEL ../reservasi",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "id",
+							"value": "10",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/tubesapp/hotel/Reservasi_api/reservasi",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"tubesapp",
+						"hotel",
+						"Reservasi_api",
+						"reservasi"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET ../kelaskamar",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/tubesapp/hotel/Kelaskamar_api/kelkam",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"tubesapp",
+						"hotel",
+						"Kelaskamar_api",
+						"kelkam"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST ../kelaskamar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "id",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "nama",
+							"value": "KELAS EXTRA DELUXE ROOM ONLY",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/tubesapp/hotel/Kelaskamar_api/kelkam",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"tubesapp",
+						"hotel",
+						"Kelaskamar_api",
+						"kelkam"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT ../kelaskamar",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "id",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "nama",
+							"value": "KELAS EXTRA DELUXE ROOM",
+							"type": "text"
+						},
+						{
+							"key": "id",
+							"value": "5",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/tubesapp/hotel/Kelaskamar_api/kelkam",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"tubesapp",
+						"hotel",
+						"Kelaskamar_api",
+						"kelkam"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DEL ../kelaskamar",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "id",
+							"value": "5",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/tubesapp/hotel/Kelaskamar_api/kelkam",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"tubesapp",
+						"hotel",
+						"Kelaskamar_api",
+						"kelkam"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET ../kamar",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/tubesapp/hotel/Hotel_api/kamar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"tubesapp",
+						"hotel",
+						"Hotel_api",
+						"kamar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST ../kamar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "id",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "no",
+							"value": "221",
+							"type": "text"
+						},
+						{
+							"key": "harga",
+							"value": "123543",
+							"type": "text"
+						},
+						{
+							"key": "fasilitas",
+							"value": "<p>Kamar dirancang demi kenyamanan anda selama menginap . Dilengkapi fasilitas seperti AC, TV dan lain-lain. </p><p>Fasilitas Kamar : </p> AC , TV, Minibar, Brankas, Tempat tidur yang nyaman, Kamar mandi, Akses internet",
+							"type": "text"
+						},
+						{
+							"key": "status",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "id_kelas",
+							"value": "2",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/tubesapp/hotel/Hotel_api/kamar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"tubesapp",
+						"hotel",
+						"Hotel_api",
+						"kamar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT ../kamar",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "id",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "no",
+							"value": "212",
+							"type": "text"
+						},
+						{
+							"key": "harga",
+							"value": "412411",
+							"type": "text"
+						},
+						{
+							"key": "fasilitas",
+							"value": "<p>Kamar dirancang demi kenyamanan anda selama menginap . Dilengkapi fasilitas seperti AC, TV dan lain-lain. </p><p>Fasilitas Kamar : </p> AC , TV, Minibar, Brankas, Tempat tidur yang nyaman, Kamar mandi, Akses internet",
+							"type": "text"
+						},
+						{
+							"key": "status",
+							"value": "0",
+							"type": "text"
+						},
+						{
+							"key": "id_kelas",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "id",
+							"value": "45",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/tubesapp/hotel/Hotel_api/kamar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"tubesapp",
+						"hotel",
+						"Hotel_api",
+						"kamar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET ../kamar",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "id",
+							"value": "45",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/tubesapp/hotel/Hotel_api/kamar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"tubesapp",
+						"hotel",
+						"Hotel_api",
+						"kamar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET ../kamgam",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "id",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "no",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "harga",
+							"value": "300000",
+							"type": "text"
+						},
+						{
+							"key": "fasilitas",
+							"value": "Kamar dirancang demi kenyamanan anda selama menginap . Dilengkapi fasilitas seperti AC, TV dan lain-lain.&nbsp;</span><br></p><p>Fasilitas Kamar :&nbsp;</p> AC&nbsp;, TV, Minibar,&nbsp;Brankas,&nbsp;Tempat tidur yang nyaman, Kamar mandi, Akses internet",
+							"type": "text"
+						},
+						{
+							"key": "status",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "id_kamar",
+							"value": "2",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/tubesapp/hotel/kamgambar_api/kamgam",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"tubesapp",
+						"hotel",
+						"kamgambar_api",
+						"kamgam"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST ../kamgam",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "id",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "nama",
+							"value": "ricky.jpg",
+							"type": "text"
+						},
+						{
+							"key": "id_kamar",
+							"value": "2",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/tubesapp/hotel/kamgambar_api/kamgam",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"tubesapp",
+						"hotel",
+						"kamgambar_api",
+						"kamgam"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT ../kamgam",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "id",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "nama",
+							"value": "udharicy\\y.jpg",
+							"type": "text"
+						},
+						{
+							"key": "id_kamar",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "id",
+							"value": "50",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/tubesapp/hotel/kamgambar_api/kamgam",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"tubesapp",
+						"hotel",
+						"kamgambar_api",
+						"kamgam"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DEL ../kamgam",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "id",
+							"value": "50",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/tubesapp/hotel/kamgambar_api/kamgam?id=50",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"tubesapp",
+						"hotel",
+						"kamgambar_api",
+						"kamgam"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "50"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
